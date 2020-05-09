@@ -1,0 +1,99 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  box-sizing: inherit;
+}
+.mypage {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+  /* font-family: 'Palatino Linotype', Palatino, Palladio, 'URW Palladio L',
+    'Book Antiqua', Baskerville, 'Bookman Old Style', 'Bitstream Charter',
+    'Nimbus Roman No9 L', Garamond, 'Apple Garamond', 'ITC Garamond Narrow',
+    'New Century Schoolbook', 'Century Schoolbook', 'Century Schoolbook L',
+    Georgia, serif; */
+  /* font-family: 'Alex'; */
+  color: #626262;
+}
+.link {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  text-transform: uppercase;
+  line-height: 24px;
+  color: #626262;
+  padding: 8px 35px;
+}
+.link:hover,
+.link:focus {
+  color: #03a9f4;
+}
+.menu {
+  list-style-type: none;
+  display: flex;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  justify-content: space-evenly;
+}
+/* .menu-items:nth-child(1) {
+  margin-left: 165px;
+}
+.menu-items:nth-child(2) {
+  margin-left: 125px;
+}
+.menu-items:nth-child(3) {
+  margin-left: 105px;
+}
+.menu-items:nth-child(4) {
+  margin-left: 95px;
+} */
+.section {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 24px;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.section-parts:nth-last-child(-n + 2) {
+  margin-top: 80px;
+}
+.section-parts {
+  flex-basis: 420px;
+  flex-grow: 0;
+}
+.title {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.2;
+}
+.chapter {
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  line-height: 1.2;
+  color: #b4ad9e;
+  margin: 30px 0;
+}
+.content {
+  margin-top: 40px;
+}
+.button-container {
+  width: 900px;
+  margin-top: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.button {
+  font-family: inherit;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 24px;
+  color: #626262;
+  cursor: pointer;
+}

@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  box-sizing: border-box;
+}
+/* Завдання 1 */
+/* .list-item {
+  margin-top: 16px;
+} */
+/* .list :first-child {
+  margin-top: 0px;
+} */
+.list .list-item + .list-item {
+  margin-top: 16px;
+}
+p {
+  display: inline-block;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  background-color: black;
+  color: antiquewhite;
+}
+
+/* Завдання 2 */
+.logo,
+.link {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+.link:hover,
+.link-main:hover,
+.link:focus,
+.link-main:focus {
+  color: #2196f3;
+}
+.menu {
+  display: flex;
+  background-color: rgb(37, 24, 156);
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+.menu-items-list {
+  display: flex;
+  list-style: none;
+  border: 3px solid orange;
+  height: 40px;
+  width: 550px;
+  align-items: center;
+  padding: 0;
+}
+.menu-items:not(:first-child) {
+  margin-left: 12px;
+}
+
+/* Завдання 3 */
+.logo1,
+.link {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+}
+.link:hover,
+.link-main:hover,
+.link:focus,
+.link-main:focus {
+  color: #2196f3;
+}
+.container {
+  display: flex;
+  background-color: rgb(37, 24, 156);
+  justify-content: space-between;
+  width: 960px;
+  height: 70px;
+  align-items: center;
+  border: 3px solid red;
+  padding: 0 24px;
+}
+.logo1 {
+  border: 2px solid rgb(2, 182, 236);
+}
+.menu-items-list {
+  display: flex;
+  list-style: none;
+  border: 2px solid orange;
+  height: 40px;
+  flex-basis: 550px;
+  flex-grow: 0;
+  align-items: center;
+  padding: 0;
+}
+.menu-items:not(:first-child) {
+  margin-left: 12px;
+}
+/* Завдання 4 */
+.list-item1 {
+  margin-top: 5px;
+}
+.list-item1:nth-child(3n + 1) {
+  background-color: #ff4081;
+}
+.list-item1:nth-child(3n + 2) {
+  background-color: #ff9800;
+}
+.list-item1:nth-child(3n + 3) {
+  background-color: #4caf50;
+}
